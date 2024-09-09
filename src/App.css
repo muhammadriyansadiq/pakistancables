@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ontoglle btn class shoulde add or remove which has been declared in admindashboard components */
+.admin-dashboard.expanded {
+    width: 250px !important; 
+
+    
+  }
+  .admin-dashboard.collapsed{
+    width: 60px !important;
+  }
+  
+  .admin-dashboard {
+    transition: width 0.2s;
+  }
+
+ 
+  .admin-dashboard .ant-menu-item-selected {
+    background-color: transparent !important; /* Set the selected item background color */
+color: white !important;  
+} 
+
+.admin-dashboard ul li{
+    color: white !important;
+}
+  
+  .admin-dashboard .ant-menu-submenu-title {
+    color: white !important; /* Set the submenu title background color */
+  }
+
+  
+
+  .admin-dashboard ul li ul{
+    background-color: rgb(53, 31, 97) !important;
+  }
+ 
+  .home{
+    overflow: hidden !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;  /* Width of the scrollbar */
+  }
+  
+  /* The scrollbar track (the background) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light gray background */
+    border-radius: 10px; /* Rounded track */
+  }
+  
+  /* The scrollbar thumb (the handle that moves) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #8b898b;  /* Darker color for the thumb */
+    border-radius: 10px;  /* Rounded thumb */
+  }
+  
+  /* The scrollbar thumb when being hovered */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #0c6be7; /* Darker on hover */
+  }
+
+  
