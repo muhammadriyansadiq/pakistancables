@@ -23,11 +23,11 @@ const Admindasjboardcomponents = ({ collapsed, toggleCollapsed }) => {
       key: "/homedashboard",
       icon: (
         <img
-          className={`h-[20px] w-[20px]  ${collapsed
-              ? "text-[10px] translate-x-[-6px]  lg:translate-x-[0px]"
-              : "text-[19px] translate-x-[45px] "
+          className={` ${collapsed
+              ? "h-[40px] w-[50px] text-[10px] translate-x-[-6px]  lg:translate-x-[0px]"
+              : "h-[70px] w-[70px]  text-[19px] translate-x-[0px] "
             }`}
-          src="https://techzaa.getappui.com/rasket/admin/assets/images/logo-sm.png"
+          src="../../../public/logo-pc.png"
           alt=""
         />
       ),
@@ -38,10 +38,10 @@ const Admindasjboardcomponents = ({ collapsed, toggleCollapsed }) => {
             to="/homedashboard"
             className={`  font-bold  ${collapsed
                 ? "text-[10px] ml-[-15px] lg:ml-[-10px] "
-                : "text-[19px] ml-[50px] "
+                : "text-[15px] ml-[0px] "
               }`}
           >
-            Rasket
+            Pakistan Cables
           </Link>
         </span>
       ),
@@ -466,8 +466,10 @@ const Admindasjboardcomponents = ({ collapsed, toggleCollapsed }) => {
 
         }
       >
+
+        {/* //bg-[#021526] */}
         <Menu
-          className="sidebar border-[1px] h-full items-center bg-[#021526] lg:w-full py-4"
+          className="sidebar border-[1px] h-full items-center bg-[#0a301d]  lg:w-full py-4"
           selectedKeys={[location.pathname]}
           // defaultOpenKeys={["sub1"]}
           mode="inline"

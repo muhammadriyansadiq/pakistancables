@@ -16,7 +16,7 @@ const CircularProgressBar = ({ progress, radius = 75, stroke = 5 }) => {
         cy={radius}
       />
       <circle
-        stroke="#77E4C8" // Green color
+        stroke="#008444" // Green color
         fill="transparent"
         strokeWidth={stroke}
         strokeDasharray={circumference + ' ' + circumference}

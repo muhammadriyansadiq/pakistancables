@@ -133,19 +133,15 @@ const AdminNavbar = () => {
                 placeholder=" search"
               />
             </div>
-            <div className="hidden bg-white w-[17%] lg:flex justify-between text-[24px] items-center ">
+            <div className="hidden bg-white w-[12%] lg:flex justify-between text-[24px] items-center ">
               <div className=" cursor-pointer">
                 <IoMoonOutline />
               </div>
-              <div className=" cursor-pointer">
-                <AiOutlineExpand />
-              </div>
+            
               <div className=" cursor-pointer">
                 <IoMdNotificationsOutline />
               </div>
-              <div className=" cursor-pointer">
-                <IoSettingsOutline />
-              </div>
+           
               <div className=" cursor-pointer relative">
                 <Dropdown
                   className=""

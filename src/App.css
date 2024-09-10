@@ -34,8 +34,16 @@ color: white !important;
   
 
   .admin-dashboard ul li ul{
-    background-color: rgb(53, 31, 97) !important;
+    background-color: rgb(4, 66, 12) !important;
   }
+
+  .admin-dashboard.expanded ul li:first-child {
+    height: 70px;
+  }
+
+  /* .admin-dashboard.collapsed ul li:first-child {
+    height: 50px;
+  } */
  
   .home{
     overflow: hidden !important;
@@ -59,7 +67,7 @@ color: white !important;
   
   /* The scrollbar thumb when being hovered */
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #0c6be7; /* Darker on hover */
+    background-color: #0ce76f; /* Darker on hover */
   }
 
   

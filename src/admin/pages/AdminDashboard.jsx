@@ -242,7 +242,7 @@ const AdminDashboard = () => {
                     </div>
                   </div>
                   <div className=" flex justify-center ">
-                    <button className=" bg-slate-300 hover:bg-purple-500 px-7 py-1 rounded-lg">
+                    <button className=" bg-slate-300 hover:bg-green-500 px-7 py-1 rounded-lg">
                       View Details
                     </button>
                   </div>
@@ -352,7 +352,7 @@ const AdminDashboard = () => {
                     </table>
                   </div>
                   <div className=" flex justify-center mt-5">
-                    <button className=" bg-slate-300 hover:bg-purple-500 p-2 rounded-lg">
+                    <button className=" bg-slate-300 hover:bg-green-500 p-2 rounded-lg">
                       View All
                     </button>
                   </div>
@@ -369,7 +369,7 @@ const AdminDashboard = () => {
                   <div className=" flex justify-between items-center">
                     <div className=" font-bold text-[17px]">Top Pages</div>
                     <div>
-                      <button className=" bg-gray-300 p-2 rounded-lg hover:bg-purple-700 hover:text-white">
+                      <button className=" bg-gray-300 p-2 rounded-lg hover:bg-green-700 hover:text-white">
                         View All
                       </button>
                     </div>
@@ -431,7 +431,7 @@ const AdminDashboard = () => {
                   <div className=" flex justify-between items-center">
                     <div className=" font-bold text-[17px]">Top Pages</div>
                     <div>
-                      <button className=" bg-gray-300 p-2 rounded-lg hover:bg-purple-700 hover:text-white">
+                      <button className=" bg-gray-300 p-2 rounded-lg hover:bg-green-700 hover:text-white">
                         View All
                       </button>
                     </div>
