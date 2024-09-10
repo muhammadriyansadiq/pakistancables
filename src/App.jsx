@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
 
-          <Route path="/admindashboard" element={<AdminDashboard />} />
+          <Route path="/" element={<AdminDashboard />} />
           <Route path="/adminteamhirarchy" element={<Adminteamhirarachy />} />
 
 
